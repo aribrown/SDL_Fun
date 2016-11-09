@@ -1,0 +1,30 @@
+README
+
+By: Ari Brown
+
+This is a basic game written in C++ using the SDL framework. Example of loading textures and
+event-driven C++ programming.
+
+Also an attempt at implementing some physics projectile equations into a game
+(walk to the left at game startup to kick a soccer ball)
+
+Basic features:
+
+Startup scene: tree, bench, and birds
+Right screen 1: house outdoors
+Right screen 2: house indoors
+Left screen 1: soccer ball and open field
+
+Use arrow keys to move
+
+-----------------------------------
+Compile:
+        clang++ -Wall -Wextra game.cpp -o game -F /Library/Frameworks -framework SDL2_image -framework SDL2
+
+Run:
+        ./game
+
+Requirements:
+
+SDL2 framework
+SDL2_image framework
